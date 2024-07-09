@@ -5,7 +5,7 @@ function index() {
     //TODO: modify gap on mobile
     <div className="flex justify-center gap-4 border-b-2 border-black py-3">
       <div>
-        <Link href="/shop">Productos</Link>
+        <Link href="/shop">Shop</Link>
       </div>
     </div>
   );
