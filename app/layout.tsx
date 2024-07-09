@@ -23,7 +23,7 @@ export default function RootLayout({
       </head>
       <body>
         <div className="m-auto w-100 bg-gray-100 text-black border-4 min-w-full min-h-full">
-          <header className="flex flex-col items-center min-w-screen bg-black justify-between px-4">
+          <header className="flex flex-row items-center min-w-screen bg-black justify-between px-4">
             <p className=" text-xl text-white font-extrabold uppercase">
               {LABELS.SHOP_NAME}
             </p>
@@ -31,7 +31,7 @@ export default function RootLayout({
               <input
                 type="text"
                 name="search"
-                className="text-white w-auto rounded-sm px-2 capitalize"
+                className="text-black w-auto rounded-sm px-2 capitalize"
               />
               <button
                 className="h-6 my-3 bg-slate-500 text-white rounded-sm px-2 text-bold"

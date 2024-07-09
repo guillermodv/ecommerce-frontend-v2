@@ -1,13 +1,13 @@
 import { Store } from "../interfaces";
 
-export const StoreData: Store = {
+export const storeData: Store = {
   id: 1,
   StoreName: "Vinogourmet",
   description: "a very long description",
   products: [
     {
       name: "vino blanco",
-      description: "blanco como flujo de ella",
+      description: "blanco",
       price: 15,
       image:
         "https://acdn.mitiendanube.com/stores/002/095/913/products/md-imagenes-web-de-productos-10-e7022e3d7eda2d0a3117032729716592-480-0.png",
